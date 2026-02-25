@@ -9,7 +9,7 @@ form.addEventListener("submit", function (e) {
   const name = nameInput.value.trim();
 
   if (age === "" || name === "") {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
